@@ -302,10 +302,9 @@ int print_int(va_list ap, params_t *params)
                 num_str[i] = '0';
         }
     }
-//////////////////////////////////////////////////
     return print_number(num_str, params);
 }
-
+///////////////////////////////////////////////////
 int print_unsigned(va_list ap, params_t *params)
 {
     unsigned long l;
